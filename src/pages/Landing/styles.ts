@@ -11,6 +11,35 @@ const styles = StyleSheet.create({
     banner:{
         width: '100%',
         resizeMode: 'contain'
+    },
+    title:{
+        fontFamily: 'Poppins_400Regular',
+        color: '#FFF',
+        fontSize: 20,
+        lineHeight: 30,
+        marginTop: 80,
+    },
+    titleBold:{
+        fontFamily: 'Poppins_600SemiBold'
+    },
+
+    buttonsContainer:{
+        flexDirection: 'row',
+        marginTop: 40,
+        justifyContent: 'space-between'
+    },
+
+    button:{
+        height: 150,
+        width: '48%',
+        backgroundColor: '#333',
+        borderRadius: 8,
+        padding: 24, Batata
+        justifyContent: 'space-between'
+    },
+
+    buttomPrimary:{
+
     }
 
 });
